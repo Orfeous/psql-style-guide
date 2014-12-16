@@ -31,3 +31,28 @@ SELECT COALESCE(firstname, username) AS name, /* Bad: this should be on a sepera
 FROM /* Bad: there is a blank line above. */
   users
 ```
+
+## Aliasing
+* Always use `AS`, and always use a descriptive name for your aliases.
+
+Good:
+
+```SQL
+SELECT
+  username
+FROM
+  users
+JOIN
+  posts AS posts_by_user ON posts.user_id = users.id
+```
+
+Bad:
+
+```SQL
+SELECT
+  username
+FROM
+  users
+JOIN
+  posts posts_by_user ON posts.user_id = users.id /* Bad: missing `AS`. */
+```
