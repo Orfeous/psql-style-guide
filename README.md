@@ -4,6 +4,8 @@ PSQL Style Guide
 A Style Guide for writing clean and readable PostgreSQL queries.
 
 ## Table of Contents
+* [Spacing and casing](https://github.com/Hacker0x01/psql-style-guide#spacing-and-casing)
+* [Aliasing](https://github.com/Hacker0x01/psql-style-guide#aliasing)
 
 ## Spacing and casing
 * Distinct elements, such as operations, should be on a seperate line.
