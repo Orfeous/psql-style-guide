@@ -25,7 +25,8 @@ FROM
 Bad:
 
 ```SQL
-SELECT COALESCE(firstname, username) AS name, /* Bad: this should be on a seperate line. */
+/* Bad: this should be on a seperate line. */
+SELECT COALESCE(firstname, username) AS name,
   email_address
 
 FROM /* Bad: there is a blank line above. */
