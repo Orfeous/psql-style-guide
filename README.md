@@ -4,11 +4,11 @@ PSQL Style Guide
 A Style Guide for writing clean and readable PostgreSQL queries.
 
 ## Table of Contents
-* [Spacing and casing](https://github.com/Hacker0x01/psql-style-guide#spacing-and-casing)
+* [Spacing and Casing](https://github.com/Hacker0x01/psql-style-guide#spacing-and-casing)
 * [Aliasing](https://github.com/Hacker0x01/psql-style-guide#aliasing)
 * [Join Conditions and Where Clauses](https://github.com/Hacker0x01/psql-style-guide#join-conditions-and-where-clauses)
 
-## Spacing and casing
+## Spacing and Casing
 * Distinct elements, such as operations, should be on a seperate line.
   * Nested elements should be indented.
   * Aside from this, no additional (blank) lines should be added.
